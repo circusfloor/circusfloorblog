@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>马戏团顶楼-图像分享</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- 导航栏模块 -->
+    <header class="header">
+          <!-- logo模块 -->
+          <a class="navbar-brand" href="#">
+              <img src="./images/logo.png" alt="" class="logo">
+          </a>
+          <!-- 菜单模块 -->
+          <div class="menu">
+            <div id="nav-btn" class="btn">
+              <i class="bi bi-grid"></i>
+            </div>
+            <ul class="navbar">
+              <li><a href="#">马戏团</a></li>
+              <li><a href="#">图像馆</a></li>
+              <li><a href="#">文字馆</a></li>
+              <li><a href="#">杂技馆</a></li>
+              <li><a href="#">资料馆</a></li>
+              <li><a href="#">登录</a></li>
+            </ul>
+          </div> 
+    </header>
+
+    <!-- 主视觉图 -->
+    <div class="main-view">
+      <h3>马戏团顶楼</h3>
+      <h3>circusfloor.club</h3>
+      <h4>图像的故事性和情绪化</h4>
+    </div>
+    <!-- 页面主体模块 -->
+    <div class="main container">
+
+        <!-- 图像板块展示 -->
+        <div class="photo">
+
+          <!-- 板块说明 -->
+          <div class="title">
+            <h3>一个夜晚</h3>
+          </div>
+
+          <!-- 图像展示 -->
+          <ul class="photos">
+            <li class="item col-lg-4 col-md-6 col-sm-12">
+
+              <!-- 图像 -->
+              <div class="img">
+                <img src="./uploads/DSC08261.JPG" alt="">
+              </div>
+
+              <!-- 图像信息 -->
+              <div class="info">
+
+                <!-- 图像用户信息 -->
+                <div class="userinfo">
+                <p>@circus</p>
+                </div>
+
+                <!-- 喜欢和分享 -->
+                <div class="like-share">
+                <a href="#"><i class="bi bi-suit-heart"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+                </div>
+              </div>
+            </li>
+            <li class="item col-lg-4 col-md-6 col-sm-12">
+
+              <!-- 图像 -->
+              <div class="img">
+                <img src="./uploads/DSC08260.JPG" alt="">
+              </div>
+
+              <!-- 图像信息 -->
+              <div class="info">
+
+                <!-- 图像用户信息 -->
+                <div class="userinfo">
+                <p>@circus</p>
+                </div>
+
+                <!-- 喜欢和分享 -->
+                <div class="like-share">
+                <a href="#"><i class="bi bi-suit-heart"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+                </div>
+
+              </div>
+            </li> 
+            <li class="item col-lg-4 col-md-6 col-sm-12">
+
+              <!-- 图像 -->
+              <div class="img">
+                <img src="./uploads/DSC08263.JPG" alt="">
+              </div>
+
+              <!-- 图像信息 -->
+              <div class="info">
+
+                <!-- 图像用户信息 -->
+                <div class="userinfo">
+                <p>@circus</p>
+                </div>
+
+                <!-- 喜欢和分享 -->
+                <div class="like-share">
+                <a href="#"><i class="bi bi-suit-heart"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 文字板块展示 -->
+        <div class="article">
+
+        </div>
+    </div>
+    <!-- 底部模块 -->
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+      const btn = document.querySelector('.btn')
+      const navbar = document.querySelector('.navbar')
+      btn.addEventListener('click', function() {
+        navbar.classList.toggle('active')
+      })
+    </script>
+</body>
+</html>
